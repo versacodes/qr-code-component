@@ -23,7 +23,11 @@ main {
   background: hsl(0, 0%, 100%);
   margin: 0 auto;
   padding: 1.5rem;
-  border-radius: 20px;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 15px;
 }
 
 h1,p {
@@ -48,15 +52,20 @@ p {
 
 .attribution {
   padding: 5px 0;
+  font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 600px) {
   h1 {
-    /* font-size: 1.6rem; */
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
   }
 
   main {
-    max-width: 375px;
+    max-width: 450px;
   }
 } 
 </style>
