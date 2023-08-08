@@ -11,8 +11,8 @@
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Franz Amersian Tiongson</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/versacodes">Franz Amersian Tiongson</a>.
     </div>
   </main>
 </template>
@@ -31,6 +31,7 @@ h1,p {
   text-align: center;
   margin-top: 15px;
   font-size: 1.5rem;
+  padding: 0 1rem;
 }
 
 h1 {
@@ -48,4 +49,14 @@ p {
 .attribution {
   padding: 5px 0;
 }
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    /* font-size: 1.6rem; */
+  }
+
+  main {
+    max-width: 375px;
+  }
+} 
 </style>
